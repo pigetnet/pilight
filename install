@@ -1,0 +1,11 @@
+#!/bin/bash
+/show/description "Install pilight" $OK
+/show/listecho "donate to pilight at http://www.pilight.org/" $PICOLOR
+
+/show/listecho "Add Repository apt.pilight.org and key"
+/system/addAptRepository "deb http://apt.pilight.org/ stable main" "http://apt.pilight.org/pilight.key"
+/show/listecho "Update APT-GET sources"
+apt-get update
+
+/show/listecho "Install pilight"
+/system/install pilight

@@ -1,0 +1,4 @@
+#!/bin/bash
+/show/description "Check receiver with pilight" $OK
+/show/listecho "donate to pilight at http://www.pilight.org/" $PICOLOR
+python /opt/piget/pilight/python/pilight2code.py

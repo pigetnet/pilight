@@ -1,0 +1,4 @@
+#!/bin/bash
+/show/description "Show /etc/pilight/config.json"
+/show/listecho "donate to pilight at http://www.pilight.org" $PICOLOR
+nano /etc/pilight/config.json

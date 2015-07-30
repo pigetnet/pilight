@@ -1,0 +1,4 @@
+#!/bin/bash
+/show/description "Pilight log"
+/show/listecho "PRESS [CTRL-C] to exit" $WARN
+tail -f /var/log/pilight.log
